@@ -29,7 +29,7 @@ Cada módulo segue a separação:
 ## 🔧 Instalação
 
 ```bash
-git clone https://github.com/seu-usuario/seu-projeto.git
+git clone https://github.com/carlosbumba/laravel-task-team-management-api.git
 cd seu-projeto
 
 composer install
