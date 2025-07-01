@@ -143,6 +143,18 @@ Acesse em: `http://localhost:8000/docs/api`
 
 ---
 
+## 🧩 Principais Dependências Utilizadas
+
+| Pacote                                 | Uso no Projeto                                                                 |
+|----------------------------------------|---------------------------------------------------------------------------------|
+| **`dedoc/scramble`**                   | Gera documentação da API automaticamente a partir de anotações nos controllers. Ideal para projetos com arquitetura modular e sem acoplamento ao Swagger tradicional. |
+| **`f9webltd/laravel-api-response-helpers`** | Fornece helpers para respostas JSON padronizadas (`respondOk`, `respondError`, etc.), reduzindo repetição e mantendo consistência entre endpoints. |
+| **`laravel/reverb`**                   | Suporte a WebSockets nativo no Laravel. Estrutura de base para implementar notificações em tempo real com eventos e canais privados. |
+| **`laravel/sanctum`**                  | Gerencia autenticação via API tokens (Bearer), simples e leve. Protege rotas da API com middleware `auth:sanctum`. |
+| **`spatie/laravel-activitylog`**       | Registra logs de ações importantes (como criação, edição e exclusão de tarefas/equipes). Armazena dados antigos e novos, com suporte a usuários e modelos envolvidos. |
+
+---
+
 ## 👤 Autor
 
 ✅ Desenvolvido por Carlos Bumba como parte de um desafio técnico profissional.
